@@ -1,0 +1,43 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 80%;
+    /*height: 500px;*/
+    background: sienna;
+    margin: 50px auto;
+/* Flexbox*/
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.hijo{
+    background: slategrey;
+    width: 200px;
+    height: 100px;
+    color: black;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
+    /* Flexbox*/
+    flex-grow:1 ; /*posiciona e valor al 100%*/
+    flex-shrink:0;      /*restringir el ancho minimo*/
+    flex:1 1 auto ;/* flex-grow 1 , flex-shrink:1 y automatc*/
+    order: 2;
+}
+
+.otro{
+    order: 1;/*ordenr elemts*/
+    align-self: flex-end; /* ordnr un solo elmto */
+}

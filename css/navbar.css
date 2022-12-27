@@ -1,0 +1,52 @@
+.nav-enlace{
+    display: inline-block;
+    background: #CE7777;
+    color: #E8C4C4;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: #F2E5E5;
+}
+
+
+nav{
+    background: #2B3A55;
+    padding: 10px;
+    /* Flexbox */
+    display: flex;
+    /*posicionar horizontal en dif formatos*/
+    justify-content:space-around;
+}
+
+ /*Agregar botón*/
+.nav-boton{
+    background: #CE7777;
+    color: azure;
+    padding: 10px 0;
+    border: 2px solid azure; 
+    display: none;
+}
+ /* Adaptabilidad - media query*/
+@media (max-width:600px){
+    nav{
+        background: #061227;
+        flex-direction: column ;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+
+    .desaparece{
+        display: none;
+    }
+}
+
+
+
+
+

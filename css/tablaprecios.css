@@ -1,0 +1,74 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-weight: 400;
+}
+
+p{
+    font-weight: 300;
+}
+.contenedor{
+    margin:0 auto;
+    
+    /*width: 90%;*/
+    justify-content:center;
+}
+
+.flex{
+    display: flex;
+     /*Tabla responsive  - Flex-wrap*/
+     flex-wrap:wrap; 
+}
+
+.centrar{
+    text-align: center;
+}
+
+.columna{
+    background: rgb(252, 252, 252);
+    color: rgb(15, 13, 13);
+    border: 1px solid rgb(70, 68, 68);
+    margin: 0px auto; /*arr-abaj 0  y lados autom*/
+    padding: 10px;
+    border-radius: 5px;
+    /*Border derecho, abajo y degradado para izq y abaj poner -10px  */
+    box-shadow: 8px 8px 5px rgb(88, 82, 82);
+    
+    width:23% ;
+    box-sizing:border-box ; 
+}
+
+.precio{
+    font-size: 50px;
+    color: rgb(11, 53, 70)
+}
+
+.boton-comprar{
+    background: #132038;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.boton-comprar:hover{
+    background: #0a1833;
+}
+
+
+@media(max-width:1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

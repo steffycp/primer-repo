@@ -1,0 +1,14 @@
+/*Pseudoclases Hover y Active*/
+button{
+    background:#65647C;
+    color: #faf9f5;
+}
+
+button:hover{
+    background:#213c58;
+    color: #fafafa;
+}
+
+button:active{
+    background:#9C254D;
+}

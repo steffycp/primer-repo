@@ -1,0 +1,74 @@
+body{
+    background-color:#E6DDC4;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  }
+ 
+h1,h2,h3{
+    text-align: center;  }
+
+ h1{
+    background: #678983;
+    /*Margenes arriba/abajo - izq/der  */
+    margin: 50px 200px;
+
+    /*Margenes arriba -izq -inf -der  */
+    margin: 50px 200px 20px 200px;
+
+    /*Margenes a todos los lados  
+    margin: 100px;  */
+
+    /*Margen especifico  
+    margin-left: 100px;
+    margin-bottom:100px ;    */
+ }
+
+p{
+    color: #8d99cc;
+   /* font-size: 24px;*/
+   }
+
+#parrafo-1{
+    background: #181D31;
+    /*padding: marquen interior */
+    padding: 50px;
+}
+div h2{
+    color: brown;
+}
+
+/*  IDs y CLASES   */
+#parrafo-1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.parrafo{
+    color:blue ;
+    font-style: italic; 
+}
+
+
+a,img{
+    display: block;
+    }
+
+a{
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
+}  
+
+a:hover{ /*  nos permite establecer un segundo estado a cualquier elemento, cuándo un usuario interactúa con este, por ejemplo, al pasar el cursor encima.   */
+    color: blueviolet;
+}
+
+img{
+    width: 30%;
+    margin: auto;
+}
+
+nav{
+    background:#22A39F ;
+    color: #181D31;
+}
+
